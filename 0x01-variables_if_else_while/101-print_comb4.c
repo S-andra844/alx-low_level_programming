@@ -1,8 +1,8 @@
 #include <stdio.h>
 
 /**
- * main - print three number combination 
- *
+ * main - print three number combination
+ * 
  * Return: 0 success
  */
 
@@ -23,7 +23,7 @@ int main(void)
 					putchar(i);
 					putchar(j);
 					putchar(k);
-					if (!(i == '7' && j =='8' &&  k == 9))
+					if (!(i == '7' && j == '8' &&  k == '9'))
 					{
 						putchar(',');
 						putchar(' ');
@@ -35,7 +35,7 @@ int main(void)
 			j++;
 		}
 		j = '0';
-		i++;;
+		i++;
 	}
 	putchar('\n');
 	return (0);
