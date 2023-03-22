@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /**
- * main - lists all the natural numbers below 1024 
+ * main - lists all the natural numbers below 1024
  *
  * @x: variables
  *
