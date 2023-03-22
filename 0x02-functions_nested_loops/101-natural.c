@@ -1,11 +1,7 @@
 #include <stdio.h>
 
 /**
- * main - lists all the natural numbers below 1024
- *
- * @x: variables
- *
- * @sum: variable
+ * main - lists all the natural numbers below 1024(excluded) that are multiples of 3 and 5
  *
  * Return: always 0
  */
