@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /**
- * main - function
+ * main - lists all the natural numbers below 1024 
  *
  * @x: variables
  *
@@ -13,12 +13,11 @@
 int main(void)
 {
 	int x;
-        int sum;
 	sum = 0;
 
-	for (x = 0 ; x < 10 ; x++)
+	for (x = 0 ; x < 1024 ; x++)
 	{
-		if ((x % 3 == 0) || (x % 5 == 0))
+		if ((x % 3) == 0 || (x % 5) == 0)
 		{
 			sum = sum + x;
 		}
