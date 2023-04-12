@@ -3,7 +3,8 @@
 #include "main.h"
 
 /*
- * _strdup - duplicate to new memory space location
+ * _strdup - function to duplicate to new memory space
+ * location
  *
  * @str: char
  *
@@ -19,7 +20,7 @@ char *_strdup(char *str)
 		return (NULL);
 
 	i = 0;
-	while (str[i] != '\0)
+	while (str[i] != '\0')
 		i++;
 
 	aaa = malloc(sizeof(char) * (i + 1));
